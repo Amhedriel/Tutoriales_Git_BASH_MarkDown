@@ -5,10 +5,12 @@ Lo primero que tenemos que hacer es crearnos una cuenta en GitHub, es un proceso
 
 Pinchamos en new repository, colocamos el nombre del Repositorio, descripción(opcional), púlico y create repository.
 Despues nos mostrará varias opciones de que podemos hacer para poder tomar todo el código de nuestro repositorio y subirlo a la nube.
-
+~~~BASH
 David@Ciri MINGW64 ~/Dropbox/VisualStudioCode/miweb (master)
 $ git remote add origin https://github.com/Amhedriel/miweb.git
+~~~
 
+~~~BASH
 David@Ciri MINGW64 ~/Dropbox/VisualStudioCode/miweb (master)
 $ git push -u origin master
 info: please complete authentication in your browser...
@@ -26,3 +28,5 @@ remote:
 To https://github.com/Amhedriel/miweb.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
+~~~
+
