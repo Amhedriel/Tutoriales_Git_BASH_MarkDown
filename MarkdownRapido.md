@@ -85,6 +85,7 @@ ___
 <!-- También es posible cargar la imagen localmente guardando la imagen en la misma carpeta del proyecto de Mardown -->
 
 ![Logo de Visual Studio Code](VisualStudioCodeLogo1.png)
+
 ---
 
 ## Código
