@@ -37,8 +37,7 @@ Nuestros cambios son enviados a GitHub y podemos verlo en nuestro repositorio.
 
 Si hacemos un `fetch` y lugo un `ferch` y los cambios en nuestra *rama* no entran en conflicto entonces no se pierden nuestros cambios, pero, si estan en conflicto GitHub nos indicará algo como: "Tu rama está Nº commit´s por delante".
 
-## fork con git
-
+## fork con git para sincronizar nuestro repositorio
 Imagínate que no tenemos disponible GitHub o que la empresas en la que estemos trabajando no utilize una plataforma de desarrollo colaborativo de software para alojar proyectos con el botón de `fork`.
 
 Hagamos entonces:
@@ -74,16 +73,16 @@ Nuestro repositro local está conectado a un repositor remoto en la nube, ahora 
 
 En donde ``alias`` se le suele llamar **`upsrteam`** porque sería la fuente de datos de más arriba de donde has hecho el `fork`.
 
-    $ git remote add upstream https://github.com/Launch-X-Latam/MisionFrontEnd.git
+    $ git remote add upstream https://github.com/....git
 
 Y ahora haremos un:
 
 ~~~bash
 $ git remote -v
-origin  https://github.com/Launch-X-Latam/MisionFrontEnd.git (fetch)
-origin  https://github.com/Launch-X-Latam/MisionFrontEnd.git (push)
-upstream        https://github.com/Launch-X-Latam/MisionFrontEnd.git (fetch)
-upstream        https://github.com/Launch-X-Latam/MisionFrontEnd.git (push)
+origin  https://github.com/....git (fetch)
+origin  https://github.com/....git (push)
+upstream        https://github.com/....git (fetch)
+upstream        https://github.com/....git (push)
 ~~~
 
 Podemos ver `origin` y que añadió `upstream`, ahora podemos hacer un montón de cosas como:
@@ -91,7 +90,14 @@ Podemos ver `origin` y que añadió `upstream`, ahora podemos hacer un montón d
 * `git fetch origin`
 * `git fetch upstream`
 
-Y con esto nos va a traer los cambios de todas las ramas que se han hecho en el `upstream` y ahora soy capaz de ver los 2 repositorios a la vez.
+Y con esto nos va a traer todos los cambios de todas las ramas que se han hecho en el `upstream` y ahora soy capaz de ver los 2 repositorios a la vez.
+
+Ahora podemos hacer:
+
+* `git pull origin` El origin es el repositorio remoto al que nos referimos.
+* `git pull upstream main` Con esto nos podríamos traer los cambios de *main*.
+
+Haciendo estos pasos cuando tu tengas un fork de una forma como esta podrías estar constantemente sincronizando el repositorio porteado con el *original*.
 
 
 
