@@ -45,5 +45,5 @@ Con este comando estamos copiando todos los archivos .txt que empiecen con *libr
 
 Mientras más *?* coloquemos, más caracteres se reemplazarán, también sirve en las extensiones, etc.
 
-
+[*Volver* **&ldca;**](/README.md) [*Subir* **&#11165;**](# "Ir al título")
 

@@ -4,19 +4,19 @@ Tenemos varios comandos básicos que serán muy útiles en el manejo de nuestro 
 
 Ahora veremos algunos comandos importantes:
 
-* pwd
-* mkdir
-* rmdir
-* ls
-* cd
-* touch
-* vim
-* cat
-* history
-* clear
-* cp
-* rm
-* --help
+* [pwd](#visualizar-carpeta-actual-pwd)
+* [mkdir](#crear-carpetas-mkdir)
+* [rmdir](#rmdir)
+* [ls](#listar-ls)
+* [cd](#movernos-entre-carpetas-cd)
+* [touch](#crear-archivos-touch)
+* [vim](#vivim-editor-de-texto-plano)
+* [cat](#mostrar-contenido-de-un-archivo-cat)
+* [history](#history-historial-de-comandos)
+* [clear](#limpiar-pantalla-clear)
+* [cp](#cp-copy)
+* [rm](#rm-borrar-archivos)
+* [--help](#ayuda-cualquier-comando-seguido-de---help)
 
 
 
@@ -193,7 +193,7 @@ Para poder salir del editor guardando los cambios debemos presionar ESC y luego 
 
 ---
 
-## Mostrar contenido de un archivo CAT
+## Mostrar contenido de un archivo cat
 
 Para mostrar el contenido de un archivo podemos utilizar `cat`
 
@@ -205,7 +205,7 @@ Mensaje secreto.
 
 ---
 
-## history Historial de comandos
+## history historial de comandos
 
 Para poder revisar el listado completo de todos los comandos que estamos utilizando podemos utilizar `history`.
 
@@ -256,14 +256,14 @@ miweb/  vacio.txt
 
 ---
 
-## Limpiar pantalla CLEAR
+## Limpiar pantalla clear
 
 El comando para poder limpiar la pantalla es `clear` y borrara todo lo que esta en pantalla, no borra los cambios realizados, solo limpia la pantalla al igual que `cls` o `clscream` en DOS.
 
 Pero en Bash el comando rápido para limpiar pantalla es CTRL+L.
 
 ---
-## cp Copy
+## cp copy 
 
 Comando útil para copiar archivos de una carpeta a otra sin perder nada del contenido
 
@@ -343,4 +343,4 @@ Full documentation <https://www.gnu.org/software/coreutils/rm>
 or available locally via: info '(coreutils) rm invocation'
 ~~~
 
-[*volver* **&ldca;**](/README.md) [*Subir* **&#11165;**](# "Ir al título")
+[*Volver* **&ldca;**](/README.md) [*Subir* **&#11165;**](# "Ir al título")

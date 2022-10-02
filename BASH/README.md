@@ -4,11 +4,11 @@ Debido al uso continuo de Bash podremos hacer muchas más cosas en nuestras comp
 
 Un glosario de lo que se puede encontrar aquí:
 
-* [ComandosBásicos](/001_ComandosB%C3%A1sicos.md "Algunos comandos básicos")
-* [Directorios](/002_Directorios.md "Manejo de directorios")
-* [Archivos](/003_Archivos.md "Manejo de archivos")
-* [Vim](/004_Vim.md "Editor de texto Vim")
-* [Comodines](/00x_Comodines.md "Caracteres especiales")
+* [ComandosBásicos](001_ComandosB%C3%A1sicos.md "Algunos comandos básicos")
+* [Directorios](002_Directorios.md "Manejo de directorios")
+* [Archivos](003_Archivos.md "Manejo de archivos")
+* [Vim](004_Vim.md "Editor de texto Vim")
+* [Comodines](00x_Comodines.md "Caracteres especiales")
 
 
 ##

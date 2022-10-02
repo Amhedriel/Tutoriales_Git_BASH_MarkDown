@@ -78,7 +78,7 @@ ___
 
 <!-- Si queremos tener enlaces en el mismo documento
 Este hilo puede estar desactualizado, pero para crear enlaces internos de documentos en markdown en Github, use...-->
-(NOTA: #título en minúsculas además borrar símbolos "", /, etc. y no dejar espacios)
+(NOTA: #título en minúsculas además borrar símbolos "", /, etc. y no dejar espacios excepto --)
 ~~~
     # Contents
      - [Specification](#specification) 
