@@ -12,4 +12,7 @@ Ahora digamos que tropezamos con un bug terrible en la **rama** de experimentaci
 
 ---
 ## Merge
-Que es cuando que es cuando unes las versiones de una **rama** con otra entonces estas en la V1, la V2 hiciste un **merge** y terminas con un versión final conectada entre el cambio que hiciste, y la última versión de la **rama** ***master*** actual y esta versión se llamaría la Versión final o la versión HEAD que es ahora mismo donde estan todos los cambios
+Que es cuando que es cuando unes las versiones de una **rama** con otra entonces estas en la V1, la V2 hiciste un **merge** y terminas con un versión final conectada entre el cambio que hiciste, y la última versión de la **rama** ***master*** actual y esta versión se llamaría la Versión final o la versión HEAD que es ahora mismo donde estan todos los cambios.
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")

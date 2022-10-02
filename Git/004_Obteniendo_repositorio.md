@@ -34,3 +34,9 @@ Ese comado hace lo mismo que el anterior, pero el directorio de destino se llama
 
 ## NOTA: 
 Git te permite usar distintos protocolos de transferencia. El ejemplo anterior usa el protocolo `https://` pero también puedes utilizar `git://` o `usuario@servidor:ruta/del/repositorio.git` que utiliza el protocolo de transferencia SSH. En *Configurando Git en un servidor* se explicarán todas las opciones disponibles a la hora de configurar el acceso a tu repositorio de Git, y las ventajas e inconvenientes de cada una.
+
+[Siguiente **&#129042;**](005_Comados_Básicos_Bash.md "Comandos básicos")
+
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")

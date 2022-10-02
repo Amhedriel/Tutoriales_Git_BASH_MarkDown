@@ -23,8 +23,5 @@ Algunos temas que podremos ver en este apartado son:
 15. [Recapitulación de commit](015_Commit.md)
 
 
-
-
-
-
-
+---
+[*Volver* **&ldca;**](../README.md "Ir a Readme principal") [*Subir* **&#11165;**](# "Ir al título")

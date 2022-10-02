@@ -89,3 +89,8 @@ index 68f3347..9121bd2 100644
 +Hoy es el CEO de Platzi.
 ~~~
 
+[Siguiente **&#129042;**](011_Ramas_Branch.md "Branch o ramas en Git")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
+

@@ -13,4 +13,5 @@ Un glosario de lo que se puede encontrar aquí:
 
 ##
 
-[*volver* **&ldca;**](../README.md "Ir a Readme principal") [*Subir* **&#11165;**](# "Ir al título") 
+---
+[*Volver* **&ldca;**](../README.md "Ir a Readme principal") [*Subir* **&#11165;**](# "Ir al título")

@@ -209,3 +209,8 @@ index 22fb799..8a626aa 100644
 
 Por ende, la primera versión del comando cuando es solamente `git diff`, nos va a mostrar todos los cambios que nosotros hemos escrito pero que todavía no hemos pasado a la etapa de **stage**, si agregamos `--staged` nos va a mostrar todos los cambios que se encuentran en nuestra etapa de **stage** aparecera acá, así podremos ver los cambios que queremos comprometer y no queremos ver absolutamente todo.
 
+[Siguiente **&#129042;**](010_Revisar_Historial.md "Git log")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
+

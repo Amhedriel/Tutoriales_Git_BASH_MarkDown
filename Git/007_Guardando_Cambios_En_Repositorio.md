@@ -1,4 +1,5 @@
 # Guardando cambios en el repositorio
+
 Ya tienes un repositorio Git y un *checkout* o copia de trabajo de los archivos de dicho proyecto. el siguiente paso es realizar algunos cambios y confirmar instantáneas de esos cambios en el repositorio cada vez que el proyecoto alcance un estado que quieras conservar.
 
 Cada archivo de tu repositorio tiene 2 estados: rastreados y sin rastrear. Los *tracked files* o rastreados son todos aquellos archivos que estaban en la última instantánea del proyecto; pueden ser archivos sin modificar, modificados o preparados. Los archivos sin rastrear son todos los demás - cualquier otro archivo que no estaba en tu directorio de trabajo que no estaba en tu última instantánea y que no está en el área de preparación *staging area*. Cuando clonas por primear vez un repositorio, todos tus archivos estarán rastreados y sin modificar pues acabas de sacarlos y aun no han sido editados.
@@ -59,3 +60,8 @@ Changes to be committed:
       new file:     README
 ~~~
 Puedes ver que está siendo rastreado porque aparece `Changes to be committed:` (`cambios a ser confirmados` en español). si confirmas en este punto, se guardará en el historial la versión del archivo correspondiente al instante en que ejecutaste `git add`. Anteriormente cuando ejecutaste `git init`, luego ejecutaste `git add (files)`- lo cual inició el rastreo de archivos en tu rirectorio, el comando añade recursivamente los archivos que están dentro de él.
+
+[Siguiente **&#129042;**](008_Agregando_Cambios_Stage.md "Agregando cambios a stage")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")

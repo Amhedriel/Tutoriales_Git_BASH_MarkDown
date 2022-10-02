@@ -144,3 +144,8 @@ chanchito feliz
 Vamos a ver los cambios de Chanchitos felices.
 
 Asi es que cada trabajador se crea su rama implementa la funcionalidad y luego la mezcla o hace un **merch** con la **rama** de master.
+
+[Siguiente **&#129042;**](011.1_Crear_Ramas.md "Crear una Rama Nueva")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")

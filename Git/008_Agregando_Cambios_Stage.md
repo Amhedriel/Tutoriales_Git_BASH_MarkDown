@@ -387,4 +387,9 @@ $ git commit -m "Devolviendo el nombre al archivo"
  rename archivo.txt => archivo1.txt (100%)
 ~~~
 
+[Siguiente **&#129042;**](009_Ignorar_Archivos_y_Directorios.md "Ignorar archivos y directorios con .gitignore")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
+
 

@@ -30,3 +30,8 @@ To https://github.com/Amhedriel/miweb.git
 branch 'master' set up to track 'origin/master'.
 ~~~
 
+[Siguiente **&#129042;**](013_Borrar_Archivos_Git.md "Para borrar archivos rm")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
+

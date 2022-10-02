@@ -159,7 +159,9 @@ Other
     --show-scope          show scope of config (worktree, local, global, system, command)
     --default <value>     with --get, use default value when missing entry
 ```
----
+[Siguiente **&#129042;**](003_Git_Ayuda.md "¿Cómo obtener ayuda?")
 
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
 
 

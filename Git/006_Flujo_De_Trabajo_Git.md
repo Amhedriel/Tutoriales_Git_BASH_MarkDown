@@ -80,4 +80,9 @@ Pero para que tener que hacer `fetch` y `merge` al mismo tiempo si al final lo q
 
 Entonces, cuando hago un `pull` lo que hago es que copio el repositorio local, la base de datos de cambios y copio el directorio de esa manera siempre tengo una copia actualizada de lo último que paso en el repositorio
 
+[Siguiente **&#129042;**](007_Guardando_Cambios_En_Repositorio.md "Guardando cambios en el repositorio")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
+
 

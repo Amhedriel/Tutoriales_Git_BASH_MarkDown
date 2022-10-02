@@ -370,3 +370,8 @@ Report any translation bugs to <https://translationproject.org/team/>
 Full documentation <https://www.gnu.org/software/coreutils/rm>
 or available locally via: info '(coreutils) rm invocation'
 ~~~
+
+[Siguiente **&#129042;**](006_Flujo_De_Trabajo_Git.md "Flujo de trabajo con Git")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")

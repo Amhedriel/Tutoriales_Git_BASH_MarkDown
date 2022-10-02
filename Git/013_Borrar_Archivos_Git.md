@@ -1,4 +1,4 @@
-# Para borrar archivos RM
+# Para borrar archivos rm
 
 Para borrar archivos podemos utilizar el comando `rm` seguido por un espacio el o los nombres separados por espacios de el/los archivos que queramos eliminar.
 
@@ -23,6 +23,11 @@ Este comando nos ayuda a volver en el tiempo en el historial, pero no como `git 
 ## Borrar directorios RMDIR
 
 Lo mismo que en el caso anterior pero con directorios `rmdir`.
+
+[Siguiente **&#129042;**](014_Recuperar_Archivos_anteriores.md "Recuperar archivos")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
 
 
 
