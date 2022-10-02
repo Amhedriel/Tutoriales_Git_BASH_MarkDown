@@ -3,5 +3,5 @@ Un recopilatorio de los conocimientos adquiridos recientemente y editados en md 
 
 Veamos un listado del contenido:
 
-* [BASH](/BASH/README.md "Veamos BASH de git")
-* [Git](/Git/º)
+* [BASH](/BASH/README.md "Veamos BASH de Git")
+* [Git](/Git/README.md "Revisemos Git")
