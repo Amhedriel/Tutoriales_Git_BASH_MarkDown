@@ -76,6 +76,29 @@ ___
 <!-- Si quieres que el URL sea el mismo enlace basta conque incluyas la propia URL entre los símbolos <> -->
 <https://enfoquenomada.com>
 
+<!-- Si queremos tener enlaces en el mismo documento
+Este hilo puede estar desactualizado, pero para crear enlaces internos de documentos en markdown en Github, use...-->
+(NOTA: #título en minúsculas además borrar símbolos "", /, etc. y no dejar espacios)
+~~~
+    # Contents
+     - [Specification](#specification) 
+     - [Dependencies Title](#dependencies-title) 
+
+    ## Specification
+    Example text blah. Example text blah. Example text blah. Example text blah. 
+Example text blah. Example text blah. Example text blah. Example text blah. 
+Example text blah. Example text blah. Example text blah. Example text blah. 
+Example text blah. Example text blah. 
+
+    ## Dependencies Title
+    Example text blah. Example text blah. Example text blah. Example text blah. 
+Example text blah. Example text blah. Example text blah. Example text blah. 
+Example text blah. Example text blah. Example text blah. Example text blah. 
+Example text blah. Example text blah. 
+Se hizo una buena pregunta, así que he editado mi respuesta;
+~~~
+<!-- Se puede hacer un enlace interno a cualquier tamaño de título usando - #, ##, ###, #### -->
+
 ---
 
 ## Imágenes
