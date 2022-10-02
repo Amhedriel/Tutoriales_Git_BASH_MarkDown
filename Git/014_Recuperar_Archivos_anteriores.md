@@ -1,3 +1,5 @@
+# Recuperar archivos anteriores
+
 Que pasa cuando quieres traer un cambio que esta en staging pero no en el repositoriopero que no esta en tu carpeta, por ejemplo: si un miembro del equipo hizo un cambio al archivo que no tenemos en los archivos locales pero debemos trabajar sobre el mismo archivo debemos ir a la rama final del repositorio y para traer a nuestra carpeta existe un comando llamado `chekout` con este comando podemos traer los ultimos cambios o los cambios que necesitemos, no necesariamente los recientes, si no los que podrian ser un poco antes hacia la carpeta, podemos traer todos los cambios, solo ciertos cambios o los cambios de ciertos archivos dependiendo de como modifiquemos el comando `chekout`.
 
 Recordemos que cada **commit** es una nueva versión de nuestro archivo, V1, V2, V3... hacia nuestro repositorio, para lanzar una versión experimental, desarrollar una rama y luego unirlka a la master si estamos conformes con el resultado esperado.

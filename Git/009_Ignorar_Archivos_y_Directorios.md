@@ -1,3 +1,5 @@
+# Ignorar archivos y directorios con .gitignore
+
 Ignorar archivos para que no sean subidos a nuestros repositorios de Git, esto se hace porque queremos tener archivos de configuración específicas para nuestra máquina por ejemplo variables de entorno, supongamos que trabajamos con una base de datos y esta base de datos nosotros la tendremos instalada en local.
 
 En ese caso los usuarios, contraseñas y cualquier otro acceso sera diferente al de producción, asi que nosotros queremos tener ese archivo almacenado dentro de nuestra máquina y que este no se suba por error dentro de nuestro repositorio ya que no queremos que otras personas conozcan nuestra contraseña y ademas queremos que sea configurable de manera que la aplicación despliegue a produccion solamente una persona tenga acceso a esas variables de entorno, las cuales serviran para configurar la aplicación y que esta se conecte finalmente con la base de datos de producción.
