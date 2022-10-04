@@ -8,7 +8,8 @@ Un glosario de lo que se puede encontrar aquí:
 * [Directorios](002_Directorios.md "Manejo de directorios")
 * [Archivos](003_Archivos.md "Manejo de archivos")
 * [Vim](004_Vim.md "Editor de texto Vim")
-* [Comodines](00x_Comodines.md "Caracteres especiales")
+* [Atajos de teclado](atajos_de_teclado.md "Atajos aplicables en GitBash")
+* [Comodines](Comodines.md "Caracteres especiales")
 
 
 ##

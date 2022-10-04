@@ -5,3 +5,7 @@ Veamos un listado del contenido:
 
 * [BASH](/BASH/README.md "Veamos BASH de Git")
 * [Git](/Git/README.md "Revisemos Git")
+* [Markdown rápido](/MarkdownRapido.md "Dale un vistazo rápido al como se hizo todo esto")
+
+---
+[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")

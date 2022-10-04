@@ -82,6 +82,8 @@ Si lo que nosotros queremos es recupera la ultima version commiteada en la maste
     $ git checkout master historia.txt
     Updated 1 path from 6ab4581
 
+[Siguiente **&#129042;**](/Git/015_Commit.md "Resumen")
+
 ---
 [*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
 

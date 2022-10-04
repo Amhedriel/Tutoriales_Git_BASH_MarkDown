@@ -1,3 +1,5 @@
+# Recapitulando un commit
+
 ## Master
 
 Cada que hacemos un **commit** reemplazamos la version anterior por una nueva versión (v1, v2, v2,1 ...V actual) en la rama de Master.

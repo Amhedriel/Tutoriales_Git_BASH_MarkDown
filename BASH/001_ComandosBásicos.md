@@ -343,4 +343,8 @@ Full documentation <https://www.gnu.org/software/coreutils/rm>
 or available locally via: info '(coreutils) rm invocation'
 ~~~
 
-[*Volver* **&ldca;**](/README.md) [*Subir* **&#11165;**](# "Ir al título")
+[Siguiente **&#129042;**](/BASH/002_Directorios.md "Directorios")
+
+---
+
+[*Volver* **&ldca;**](/BASH/README.md "A README") [*Subir* **&#11165;**](# "Ir al título")

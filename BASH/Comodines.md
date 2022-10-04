@@ -8,7 +8,10 @@ Como un ejemplo muy común es utilizar el asterisco *\** que básicamente funcio
 
 Lo que resulta en copiar todos los archivos con extensión *.txt* de la carpeta actual se copien en la *carpeta1*. Con esto estaríamos ahorrando bastante tiempo en lugar de copiar archivo por archivo indicando el nombre con su extensión.
 
-## *\**
+* [\* Asterisco](#asterisco)
+* [? Interrogación](#interrogación)
+
+## *\* Asterisco*
 
 Como lo vimos más arriba es un comodin, al menos para mí, muy importante para poder agilizar nuestras acciones.
 
@@ -35,7 +38,7 @@ Copiaremos todos los archivos que tengan los caracteres libro en ese orden en cu
 Y el comodín \* se puede usar en muchas cosas más no solo con el comando de `cp`.
 
 ---
-## ?
+## ? Interrogación
 
 Se diría que funciona como el \* pero que solo reemplaza un caracter con cualquiera que pueda ser:
 
@@ -45,5 +48,7 @@ Con este comando estamos copiando todos los archivos .txt que empiecen con *libr
 
 Mientras más *?* coloquemos, más caracteres se reemplazarán, también sirve en las extensiones, etc.
 
-[*Volver* **&ldca;**](/README.md) [*Subir* **&#11165;**](# "Ir al título")
+---
+
+[*Volver* **&ldca;**](/BASH/README.md) [*Subir* **&#11165;**](# "Ir al título")
 
