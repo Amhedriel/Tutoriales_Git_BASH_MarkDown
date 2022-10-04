@@ -1,6 +1,50 @@
 # Fundamentos de Git - Obteniendo un repositorio Git
 Este capítulo cubre los comandos básicos para hacer la gran mayoría de cosas a las que eventualmente vas a dedicar tu tiempo mientras trabajas con Git. Deberás ser capaz de configurar e inicializar un repositorio, comenzar y detener el seguimiento de archivos, y preparar (stage) y confrmar (commit) cambios. Configurar Git para ignorar ciertos archivos y patrones, cómo enmendar errores rápida y fácilmente, cómo navegar por el historial y ver cambios entre confirmaciones, cómo evitar (push) y recibir (pull) de repositorios remotos.
 
+* [Crea tu primer repositorio](#crea-tu-primer-repositorio)
+* [Obteniendo un repositorio Git](#obteniendo-un-repositorio-git)
+    * [Inicializando un repositorio en un directorio existente](#inicializando-un-repositorio-en-un-directorio-existente)
+    * [Clonando un repositorio existente](#clonando-un-repositorio-existente)
+    * [NOTA:](#nota)
+
+
+## Crea tu primer repositorio
+
+En GitBash verifiquemos:
+
+    $ git --version
+    git version 2.38.0.windows.1
+
+Ahora debemos navegar hasta el directorio que deseamos colocar bajo el control de versiones y crear un repositorio de Git vacío:
+
+    $ git init
+
+Con esto tenemos inicializado el directorio para trabajar con Git, por defecto estará en el *branch* **master** o **main**.
+También crea una carpeta oculta `.git`, que contiene todo lo necesario para que Git funcione.
+
+A continuación. verifiquemos qué archivos Git agregaremos a nuestro repositorio:
+
+    $ git status
+
+Revisamos la lista resultante de archivos; podemos decirle a Git cuál de los archivos queremos colocar en el control de versiones (No enviar información confidencial, como contraseñas o archivos que solo saturan el repositorio como videos o imágenes, estos archivos grandes se recomiendan agregarlos mediante anclas, por estar almacenados en servidores externos y no en el mismo directorio del proyecto):
+
+    $ git add <file/directory name #1> <file/directory name #2> < ... >
+
+Si todos los archivos de la lista deben compartirse con todos los que tienen acceso al repositorio, un solo comando agregará todo en su directorio actual y sus subdirectorios:
+
+    $ git add .
+
+Esto "preparará" todos los archivos que se agregarán al control de versiones, preparándolos para que se confirmen en su primer confirmación.
+
+Para los archivos que no desee que se suban al repositorio entonces cree un archivo ``.gitignore`` antes de ejecutar el comando ``add``.
+
+Confirmamos todos los archivos que se han agregado, junto con un mensaje de confirmación:
+
+    $ git commit -m "Initial commit"
+
+Esto crea una nueva confirmación con el mensaje dado. Un `commit` (comprometer?) es como guardar de manera instantánea de todo su proyecto. Ahora puede enviarlo o cargarlo a un repositorio remoto, y más tarde puede volver a él si es necesario. Si omitimos el parámetro `-m`, su editor predeterminado se abrirá y podrá editar y guardar el mensaje de confirmación en este editor.
+
+
 ## Obteniendo un repositorio Git
 Puedes obtener un proyecto de Git de 2 maneras. La primera es tomar un proyecto o directorio existente e importarlo en Git. La segunda es clonar un repositorio existente en Git desde otro servidor.
 
@@ -32,7 +76,7 @@ Esto crea un directorio llamado `gitlib2`, inicializa un directorio `.git` en su
 
 Ese comado hace lo mismo que el anterior, pero el directorio de destino se llamará `mylibgit`.
 
-## NOTA: 
+### NOTA: 
 Git te permite usar distintos protocolos de transferencia. El ejemplo anterior usa el protocolo `https://` pero también puedes utilizar `git://` o `usuario@servidor:ruta/del/repositorio.git` que utiliza el protocolo de transferencia SSH. En *Configurando Git en un servidor* se explicarán todas las opciones disponibles a la hora de configurar el acceso a tu repositorio de Git, y las ventajas e inconvenientes de cada una.
 
 [Siguiente **&#129042;**](005_Comados_Básicos_Bash.md "Comandos básicos")

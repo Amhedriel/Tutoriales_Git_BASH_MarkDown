@@ -76,8 +76,7 @@ ___
 <!-- Si quieres que el URL sea el mismo enlace basta conque incluyas la propia URL entre los símbolos <> -->
 <https://enfoquenomada.com>
 
-<!-- Si queremos tener enlaces en el mismo documento
-Este hilo puede estar desactualizado, pero para crear enlaces internos de documentos en markdown en Github, use...-->
+<!-- Si queremos tener enlaces en el mismo documento, pero para crear enlaces internos de documentos en markdown en Github, use...-->
 (NOTA: #título en minúsculas además borrar símbolos "", /, etc. y no dejar espacios excepto --)
 ~~~
     # Contents
