@@ -16,7 +16,7 @@ Ahora veremos algunos comandos importantes:
 * [clear](#limpiar-pantalla-clear)
 * [cp](#cp-copy)
 * [rm](#rm-borrar-archivos)
-* [mv]()
+* [mv](#mover-renombrar-directoriosarchivos-mv)
 * [--help](#ayuda-cualquier-comando-seguido-de---help)
 
 
