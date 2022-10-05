@@ -16,6 +16,7 @@ Ahora veremos algunos comandos importantes:
 * [clear](#limpiar-pantalla-clear)
 * [cp](#cp-copy)
 * [rm](#rm-borrar-archivos)
+* [mv]()
 * [--help](#ayuda-cualquier-comando-seguido-de---help)
 
 
@@ -295,6 +296,68 @@ miweb/
 Este comando es muy peligros, porque, puede borrar incluso el disco duro sin necesidad de confirmación.
 
 ---
+
+## Mover, renombrar directorios/archivos mv
+
+El comando `mv` (move), mueve archivos y directorios de un lugar a otro. También puede ser usado para renombrar archivos y directorios.
+
+  mv [options] source destination
+
+El `source` puede ser uno o más archivos/directorios, el `destination` es siempre un solo archivo/directorio que se escribe en último lugar.
+
+### Mover un archivo a un directorio
+
+  mv <filename> <path_of_destinationDirectory>
+
+Si el directorio de destino no existe, el archivo se renombrará como el archivo de destino.
+
+Si la ruta de destino es un archivo, el archivo fuente se renombra con el primero.
+
+  mv illunee.svg 1.svg
+
+Se renombrará el archivo `illunee.svg` a `1.svg`
+
+En algunos casos el archivo de destino puede existir y será sobrescrito si usamos `mv`. Para pedir confirmación antes de sobrescribir, usaremos la opción `-i`  con el comando `mv`
+
+Para evitar la sobrescritura, presione `N` y Enter, si no, `Y`
+
+### Mover un directorio dentro de otro directorio
+
+    mv <path_of_source_directory> <path_of_destination_directory>
+
+  mv Python_Scripts Python_Scripts_New
+
+Mueve el directorio `Python_Scripts` en nuestro directorio de trabajo actual dentro de otro directorio `Python_Scripts_New` en el directorio de trabajo actual.
+
+Si el directorio de destino no está presente, el directorio de origen es renombrado al directorio de destino
+
+### Mover Múltiples archivos
+
+Para mover varios archivos dentro de otro directorio, especificamos todos los archivos de origen seguido de la ruta del directorio de destino.
+
+    mv <source_filepath_1> <source_filepath_2> <source_filepath_3> <path_of_destination_directory>
+
+    mv 1.jpg 2.jpg 2.png Images
+
+Mueve los archivos `1.jpg`,`2.jpg` y `2.png` en nuestro directorio de trabajo actual dentro de otro directorio `Images` en el directorio de trabajo actual.
+
+También podemos mover múltiples archivos dentro de un directorio usando expresiones regulares para que coincidan con los nombres de los archivos que necesitan ser movidos.
+
+    mv *.jpg JPG-Images
+
+### Hacer copia de seguridad de un archivo existente
+
+Para hacer una copia de seguridad usamos la opción `-b`. Crea una copia sobrescrita con el caracter `~` adjunto al nombre de archivo de copia de seguridad.
+
+~~~bash
+$ mv -b abc.jpg 123.jpg
+ls
+
+123.jpg 123.jpg~
+~~~
+
+---
+
 ## Ayuda cualquier comando seguido de --help
 
 Para tener ayuda con respecto a las opciones posibles con comando podemos utilizar un comando cualquiera seguido de la opción de `--help`
