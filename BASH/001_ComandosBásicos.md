@@ -14,8 +14,8 @@ Ahora veremos algunos comandos importantes:
 * [cat](#mostrar-contenido-de-un-archivo-cat)
 * [history](#history-historial-de-comandos)
 * [clear](#limpiar-pantalla-clear)
-* [cp](#cp-copy)
 * [rm](#rm-borrar-archivos)
+* [cp](#cp-copy)
 * [mv](#mover-renombrar-directoriosarchivos-mv)
 * [--help](#ayuda-cualquier-comando-seguido-de---help)
 
@@ -264,15 +264,6 @@ El comando para poder limpiar la pantalla es `clear` y borrara todo lo que esta 
 Pero en Bash el comando rápido para limpiar pantalla es CTRL+L.
 
 ---
-## cp copy 
-
-Comando útil para copiar archivos de una carpeta a otra sin perder nada del contenido
-
-    $ cp carpeta1/carpeta2/arcvivo1.txt carpeta1/carpeta3/archivo1.txt
-
-Con esto copiamos el contenido del "archivo1.txt" de la "carpeta2" a la "carpeta3" 
-
----
 
 ## rm Borrar archivos
 
@@ -296,6 +287,13 @@ miweb/
 Este comando es muy peligros, porque, puede borrar incluso el disco duro sin necesidad de confirmación.
 
 ---
+## cp copy 
+
+Comando útil para copiar archivos de una carpeta a otra sin perder nada del contenido
+
+    $ cp carpeta1/carpeta2/arcvivo1.txt carpeta1/carpeta3/archivo1.txt
+
+Con esto copiamos el contenido del "archivo1.txt" de la "carpeta2" a la "carpeta3" 
 
 ## Mover, renombrar directorios/archivos mv
 
@@ -355,6 +353,19 @@ ls
 
 123.jpg 123.jpg~
 ~~~
+
+### Parámetros
+
+OPCIÓN | DESCRIPCIÓN
+--- | :---: 
+`-a, -archive` | Combina opciones y `d p r`
+`-b, -backup` | Hacer una copia de seguridad
+`-d, --no-deference` | Conserva los enlaces
+`-f, --force` | Borram los existentes en el destino sin preguntar
+`-i, --interacive` | Mostrar mensajes antes de reemplazar
+`-l, --link` | En lugar de copiar, vincula el archivo en su lugar
+`-p, --preserve` | Conservar los atributos del archivo cuando sea posible
+`-R, --recursive` | Copiar directorios de forma recursiva
 
 ---
 
