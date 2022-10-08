@@ -39,9 +39,9 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ~~~
+
 ---
----
-## Crear Rama **branch**
+## Crear Rama (**branch**)
 
 Antes de crear una rama verificaremos en que lugar nos esncontramos para eso `git branch`
 
@@ -83,6 +83,8 @@ $ git commit -m "actualizando archivo 2"
  1 file changed, 3 insertions(+), 1 deletion(-)
 ~~~
 
+## Revisar **historial**
+
 Ahora revisemos el historial en el cual nosotros nos encontramos trabajando `git log --oneline`
 
 ~~~Bash
@@ -108,15 +110,17 @@ Chanchito feliz
 chanchito feliz
 ~~~
 
+## Cambio de rama (branch) y merge
+
 Fijemonos que sucede si nos cambiamos de **rama** a la rama master.
 
-~~~
+~~~bash
 $ git checkout master
 Switched to branch 'master'
 ~~~
 Veamos el contenido de ***master***.
 
-~~~
+~~~bash
 David@Ciri MINGW64 ~/Dropbox/VisualStudioCode/miweb (master)
 $ cat archivo2.txt
 Chanchito feliz
