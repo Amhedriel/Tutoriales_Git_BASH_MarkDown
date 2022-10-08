@@ -48,7 +48,8 @@ git push origin :old_branch
 git push --set-upstream origin new_branch
 ~~~
 
----
+[Siguiente **&#129042;**](/Git/017_Cambio_De_Nombre_Repositorio.md "Resumen")
 
+---
 [*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
 

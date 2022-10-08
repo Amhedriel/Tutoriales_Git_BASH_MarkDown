@@ -6,6 +6,8 @@ Algunos temas que podremos ver en este apartado son:
 2. [Configurar Git](002_Git_Configuracion.md)
 3. [Ayuda en Git](003_Git_Ayuda.md)
 4. [Obtener repositorio](004_Obteniendo_repositorio.md)
+
+    4.1. [Clonación de repositorios](004.1_Clonación_De_Reposirotios.md)
 5. [Comandos básicos](005_Comados_Básicos_Bash.md)
 6. [Flujo de trabajo con Git](006_Flujo_De_Trabajo_Git.md)
 7. [Guardando cambios en el repositorio](007_Guardando_Cambios_En_Repositorio.md)
@@ -22,6 +24,7 @@ Algunos temas que podremos ver en este apartado son:
 14. [Recuperar Archivos](014_Recuperar_Archivos_anteriores.md)
 15. [Recapitulación de commit](015_Commit.md)
 16. [Cambiar el nombre](016_Cambio_De_nombre.md)
+17. [Cabiar nombre de repositorio](017_Cambio_De_Nombre_Repositorio.md)
 
 
 ---
