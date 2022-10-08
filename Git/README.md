@@ -21,6 +21,7 @@ Algunos temas que podremos ver en este apartado son:
 13. [Para borrar archivos RM](013_Borrar_Archivos_Git.md)
 14. [Recuperar Archivos](014_Recuperar_Archivos_anteriores.md)
 15. [Recapitulación de commit](015_Commit.md)
+16. [Cambiar el nombre](016_Cambio_De_nombre.md)
 
 
 ---
