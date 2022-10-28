@@ -20,7 +20,7 @@ git push (Para hacer un push de la rama)
 
 
 
-[Siguiente **&#129042;**](/README.md "Resumen")
+[Siguiente **&#129042;**](/markdown/018_Estructura_Tablas.md "Resumen")
 
 ---
-[*Volver* **&ldca;**](README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
+[*Volver* **&ldca;**](/markdown/README.md "Ir a Readme") [*Subir* **&#11165;**](# "Ir al título")
