@@ -26,6 +26,10 @@ Algunos temas que podremos ver en este apartado son:
 16. [Cambiar el nombre](016_Cambio_De_nombre.md)
 17. [Cabiar nombre de repositorio](017_Cambio_De_Nombre_Repositorio.md)
 
+Veamos un resumen:
+
+* [Git y GitHub Resumido](Markdown/Git/GityGithub/GitYGitHubRESUMEN.md)
+
 
 ---
 [*Volver* **&ldca;**](../README.md "Ir a Readme principal") [*Subir* **&#11165;**](# "Ir al título")
